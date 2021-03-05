@@ -15,3 +15,4 @@ public class InvestimentoSemIR extends Investimento{
         }
     }
 }
+
