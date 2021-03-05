@@ -4,7 +4,8 @@ public abstract class Investimento {
     protected double jurosMensais;
 
     public Investimento(double valorInicial, double jurosMensais) {
-
+        this.setJurosMensais(jurosMensais);
+        this.setValorInicial(valorInicial);
     }
     public Investimento(){}
 
