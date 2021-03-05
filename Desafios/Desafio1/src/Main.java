@@ -1,6 +1,6 @@
 public class Main {
 
-    public void Main(String args[]){
+    public static void main(String[] args){
 
         InvestimentoComIR ir = new InvestimentoComIR(5000, 1.2);
         InvestimentoSemIR sir = new InvestimentoSemIR(3000, 0.7);
@@ -10,9 +10,9 @@ public class Main {
 
         System.out.println("============ Investimentos ===========");
         System.out.println("Investimento com IR: ");
-        System.out.println("Valor inicial: " + ir.getValorInicial() + "Juros Mensais: " + ir.getJurosMensais() + "Total: " + valorIr);
+        System.out.println("Valor inicial: " + ir.getValorInicial() + " Juros Mensais: " + ir.getJurosMensais() + " Total: " + valorIr);
         System.out.println("Investimento sem IR: ");
-        System.out.println("Valor inicial: " + sir.getValorInicial() + "Juros Mensais: " + sir.getJurosMensais() + "Total: " + valorSir);
+        System.out.println("Valor inicial: " + sir.getValorInicial() + " Juros Mensais: " + sir.getJurosMensais() + " Total: " + valorSir);
 
     }
 
